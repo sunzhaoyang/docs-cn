@@ -13,7 +13,7 @@ summary: 本文介绍如何深入探索并使用 TiDB 的 HTAP 功能。
 
 要快速了解 TiDB 在 HTAP 场景下的体系架构与 HTAP 的适用场景，建议先观看下面的培训视频（时长 15 分钟）。注意本视频只作为学习参考，如需了解详细的 HTAP 相关内容，请参阅下方的文档内容。
 
-<video src="https://tidb-docs.s3.us-east-2.amazonaws.com/compressed+-+Lesson+04.mp4" width="600px" height="450px" controls="controls" poster="https://tidb-docs.s3.us-east-2.amazonaws.com/thumbnail+-+lesson+4.png"></video>
+<video src="https://download.pingcap.com/docs-cn%2FLesson04_htap.mp4" width="600px" height="450px" controls="controls" poster="https://tidb-docs.s3.us-east-2.amazonaws.com/thumbnail+-+lesson+4.png"></video>
 
 ## HTAP 适用场景
 
@@ -57,7 +57,7 @@ TiDB HTAP 可以满足企业海量数据的增产需求、降低运维的风险�
 
 - TiSpark
 
-    - 如果你的业务需要基于 Spark 进行分析，请部署 TiSpark（暂不支持 Spark 3.x）。具体步骤，请参阅 [TiSpark 用户指南](/tispark-overview.md)。
+    - 如果你的业务需要基于 Spark 进行分析，请部署 TiSpark。具体步骤，请参阅 [TiSpark 用户指南](/tispark-overview.md)。
 
 <!--    - 实时流处理
   - 如果你想将 TiDB 与 Flink 结合构建高效易用的实时数仓，请参与 Apache Flink x TiDB Meetup 系列讲座。-->

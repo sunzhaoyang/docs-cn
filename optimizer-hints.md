@@ -353,7 +353,7 @@ SELECT /*+ MAX_EXECUTION_TIME(1000) */ * FROM t1 inner join t2 WHERE t1.id = t2.
 SELECT /*+ MEMORY_QUOTA(1024 MB) */ * FROM t;
 ```
 
-除了 Hint 外，系统变量 `tidb_mem_quota_query` 也能限制语句执行的内存使用。
+除了 Hint 外，系统变量 [`tidb_mem_quota_query`](/system-variables.md#tidb_mem_quota_query) 也能限制语句执行的内存使用。
 
 ### READ_CONSISTENT_REPLICA()
 
@@ -373,7 +373,7 @@ SELECT /*+ READ_CONSISTENT_REPLICA() */ * FROM t;
 
 `IGNORE_PLAN_CACHE()` 提示优化器在处理当前 `prepare` 语句时不使用 plan cache。
 
-该 Hint 用于在 [prepared-plan-cache](/tidb-configuration-file.md#prepared-plan-cache) 开启的场景下临时对某类查询禁用 plan cache。
+该 Hint 用于在 [Prepared Plan Cache](/sql-prepared-plan-cache.md) 开启的场景下临时对某类查询禁用 plan cache。
 
 以下示例强制该 `prepare` 语句不使用 plan cache：
 
